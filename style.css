@@ -153,6 +153,11 @@ margin-top: 170px;
     border-radius: 50px;
     font-size: 16px;
 }
+.service-button1:hover{
+    cursor: pointer;
+    background-color:red;
+    color:white;
+}
 .service-h{
     font-size:40px;
 }
@@ -184,9 +189,63 @@ margin-top: 170px;
     margin:15px 55px;
     
 }
+.ebtn:hover{
+    cursor: pointer;
+    background-color: red;
+    color:azure;
+}
 
 .bio{
     padding-right:40px;
     border-right:2px solid red;
     
+}
+/* appoinment-section */
+
+
+.appoinment-conteinar{
+    display:flex;
+    gap:100px;
+    width:1140PX;
+    background-color: RED;
+    margin-left: 300px;
+    margin-top:-50px;
+    border-radius:10px;
+    opacity: 0.9;
+    color:white;
+    height:200px;
+}
+
+.phone-call{
+    width:90px;
+    padding-left:40px;
+}
+.phone-logo{
+    display:flex;
+    gap:20px;
+    align-items: center;
+   
+}
+.appoinment-description{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.appoinment-button{
+    width:150px;
+    height:40px;
+    border-radius: 50px;
+}
+.appoinment-button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.number{
+    font-weight: bold;
+    font-size: 40px;
+}
+.des-p{
+    line-height: 26px;
+    padding:10px;
+    border-left:2px solid gray;
 }
